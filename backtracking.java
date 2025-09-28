@@ -102,7 +102,7 @@ public class backtracking {
         for(int i=idx;i<str.length();i++)
         {
             swap(str,i,idx);
-            permutation(str,ans,idx+1);
+            helperPermutation(str, idx+1, ans);
             swap(str,i,idx);
         }
     }
