@@ -143,9 +143,8 @@ public class greedy {
             if(i == currReach)
             {
                 jump++;
-                currReach  = maxReach;
+                currReach  = maxReach
             }
         }
-        return jump;
     }
 }
